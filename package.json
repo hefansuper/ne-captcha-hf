@@ -1,6 +1,6 @@
 {
   "name": "ne-captcha-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "网易云盾无痕验证的react组件",
   "main": "index.js",
   "scripts": {
