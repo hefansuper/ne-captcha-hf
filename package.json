@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "stephenHe",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/hefansuper/ne-captcha-react",
+  "url": "https://github.com/hefansuper/ne-captcha-react",
+  "email": "hf597833184@163.com"
 }
