@@ -1,5 +1,5 @@
 {
-  "name": "ne-captcha-hf",
+  "name": "ne-captcha-react",
   "version": "1.0.0",
   "description": "网易云盾无痕验证的react组件",
   "main": "index.js",
