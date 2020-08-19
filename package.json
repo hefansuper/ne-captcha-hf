@@ -1,14 +1,23 @@
 {
   "name": "ne-captcha-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "网易云盾无痕验证的react组件",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "author": "stephenHe",
   "license": "ISC",
   "homepage": "https://github.com/hefansuper/ne-captcha-react",
   "url": "https://github.com/hefansuper/ne-captcha-react",
-  "email": "hf597833184@163.com"
+  "email": "hf597833184@163.com",
+  "dependencies": {
+    "@types/react": "^16.9.46",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
 }
