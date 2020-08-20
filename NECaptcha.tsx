@@ -31,7 +31,7 @@ function NECaptcha({
   onError,
 }: Props) {
   useEffect(() => {
-    window.initNECaptcha(
+    (window as any).initNECaptcha(
       {
         element: element || "#captcha",
         captchaId,
@@ -45,14 +45,14 @@ function NECaptcha({
       function (instance: { refresh: () => void }) {
         // 初始化成功后得到验证实例instance，可以调用实例的方法
         // 禁止在初始化后立即调用instance.verify，详情参见常见问题-前端接入问题
-        window.captchaIns = instance;
+        (window as any).captchaIns = instance;
       },
       // eslint-disable-next-line
       onError
     );
 
     return () => {
-      window.captchaIns && window.captchaIns.destroy();
+      (window as any).captchaIns && (window as any).captchaIns.destroy();
     };
   }, []);
 
