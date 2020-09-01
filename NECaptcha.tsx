@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import dayjs from "dayjs";
 
 interface OptionsProps {
   element?: string;
@@ -30,6 +31,15 @@ function NECaptcha({
   },
   onError,
 }: Props) {
+  useEffect(() => {
+    let _scriptDom = document.createElement("script");
+    const currentTime = dayjs().format("YYYYMMDDHHmm");
+
+    _scriptDom.charset = "UTF-8";
+    _scriptDom.type = "text/javascript";
+    _scriptDom.src = `https://cstaticdun.126.net/load.min.js?t=${currentTime}`;
+  }, []);
+
   useEffect(() => {
     (window as any).initNECaptcha(
       {

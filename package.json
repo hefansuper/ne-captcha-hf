@@ -14,6 +14,7 @@
   "email": "hf597833184@163.com",
   "dependencies": {
     "@types/react": "^16.9.46",
+    "dayjs": "^1.8.34",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
