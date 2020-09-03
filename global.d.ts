@@ -1,12 +1,11 @@
-// TODO 为啥没有作用？？？？
 
-export {};
+export { };
 
 declare global {
   interface Window {
     // TODO 类型更详细
-    initNECaptcha: Function;
+    initNECaptcha?: any;
     // TODO 类型更详细
-    captchaIns: Object;
+    captchaIns?: any;
   }
 }

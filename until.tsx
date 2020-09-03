@@ -1,6 +1,6 @@
 // 开始校验
 function startVerify() {
-  (window as any).captchaIns && (window as any).captchaIns.verify();
+  window.captchaIns && window.captchaIns.verify();
 }
 
 export { startVerify };
