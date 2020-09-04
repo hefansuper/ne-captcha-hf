@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "build"),
     filename: "ne-captcha-react.js",
-    // library: "ne-captcha-react",
+    libraryTarget: "commonjs2",
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
@@ -64,7 +64,8 @@ module.exports = {
     ],
   },
   externals: {
-    react: " react",
-    "react-dom": "react-dom",
+    react: "commonjs react",
+    "react-dom": "commonjs react-dom",
+    dayjs: "commonjs dayjs",
   },
 };
