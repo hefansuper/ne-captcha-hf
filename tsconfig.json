@@ -7,7 +7,7 @@
     "target": "esnext",
     "noImplicitAny": false,
     "experimentalDecorators": true,
-    "rootDir": "src",
+    "rootDir": "",
     "sourceMap": false,
     "moduleResolution": "node",
     "listEmittedFiles": false,

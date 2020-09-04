@@ -17,6 +17,8 @@ function NECaptcha({
     let _scriptDom = document.createElement("script");
     const currentTime = dayjs().format("YYYYMMDDHHmm");
 
+    console.log(currentTime, "currentTime");
+
     _scriptDom.charset = "UTF-8";
     _scriptDom.type = "text/javascript";
     _scriptDom.src = `https://cstaticdun.126.net/load.min.js?t=${currentTime}`;

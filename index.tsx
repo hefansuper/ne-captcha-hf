@@ -1,5 +1,5 @@
-import NECaptcha from "./NECaptcha";
-import { startVerify } from "./until";
+import NECaptcha from "./src/NECaptcha";
+import { startVerify } from "./src/until";
 
 export default NECaptcha;
 export { startVerify };
